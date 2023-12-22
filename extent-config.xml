@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Optional: Set report theme -->
+        <theme>standard</theme>
+        <!-- Optional: Set document encoding -->
+        <encoding>utf-8</encoding>
+        <!-- Optional: Set protocol for script and stylesheets -->
+        <protocol>https</protocol>
+        <!-- Optional: Only used for report with extendable GUI -->
+        <offlineMode>false</offlineMode>
+    </configuration>
+</extentreports>

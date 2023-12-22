@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Utill.ExtentReporter"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Atanu/IdeaProjects/TwitterX">
+        <classes>
+            <class name="Project_FrameWork.Block_new_Account">
+                <methods>
+                    <include name="Block"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.Bookmark_New_Account">
+                <methods>
+                    <include name="Bookmark"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.Follw_New_Account">
+                <methods>
+                    <include name="Follow"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.Love_New_Acoount">
+                <methods>
+                    <include name="Love"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.Posting_New_Account">
+                <methods>
+                    <include name="create_posted"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.Reply_New_Acoount">
+                <methods>
+                    <include name="Reply"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.RepostingQ_New_Account">
+                <methods>
+                    <include name="RepostingQ"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.Reposting_New_Account">
+                <methods>
+                    <include name="Reposting"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.Search_new_Account">
+                <methods>
+                    <include name="Search"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.SignIN_New_Account">
+                <methods>
+                    <include name="Sign_in_accotn"/>
+                </methods>
+            </class>
+            <class name="Project_FrameWork.Unfollow_New_Account">
+                <methods>
+                    <include name="Unfollow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
